@@ -1,0 +1,33 @@
+.result {
+    width: 40%;
+    
+}
+
+.detail {
+    width: 60%;
+}
+
+
+.image {
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+#img {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg {
+    background-color: aquamarine;
+}

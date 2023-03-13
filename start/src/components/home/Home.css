@@ -1,0 +1,64 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    padding: 10px;
+    font-style: oblique;
+    display: flex; 
+    
+}
+
+.da {
+    width: 30%;
+}
+
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 1px solid rebeccapurple;
+}
+
+.bg {
+    background-color: aquamarine;
+}
+
+
+
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pagi {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: aqua;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button {
+    margin: 2px;
+    border: none;
+}
+
+.w-result {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+

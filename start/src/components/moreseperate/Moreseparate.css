@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.big-container {
+    width: 80%;
+    margin: auto;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.allcards {
+    width: 500px;
+}
+
+.desep {
+    width: 500px;
+}
+
+.seppag {
+    margin: auto;
+}
+
+
+@media only screen and (max-width:667px) {
+    .containers {
+        display: block;
+        margin: auto;
+    }
+    .paginate {
+        display: none;
+    }
+    
+    .containers{
+       width: 100%;
+    }
+
+    .allcards,
+    .desep {
+        width: 90%; 
+        margin: auto;
+    }
+}

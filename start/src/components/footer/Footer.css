@@ -1,0 +1,17 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(86, 179, 238);
+   text-align: center;
+}
+
+.footer h3 {
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    padding: 10px;
+    margin: 5px;
+}
+

@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.allCards {
+    width: 40%;
+}
+
+.card {
+    cursor: pointer;
+}
